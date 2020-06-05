@@ -1,0 +1,327 @@
+.feature-box {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -.75rem;
+  margin-right: -.75rem
+}
+
+.fbox-center {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center
+}
+
+.fbox-bg.fbox-center {
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 2rem 2rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px
+}
+
+
+.fbox-bg.fbox-center.fbox-lg {
+  margin-top: 3rem
+}
+
+.fbox-bg.fbox-center.fbox-lg .fbox-icon {
+  margin-top: -3rem
+}
+
+.fbox-bg.fbox-center.fbox-xl {
+  margin-top: 4rem
+}
+
+.fbox-bg.fbox-center.fbox-xl .fbox-icon {
+  margin-top: -4rem
+}
+
+.fbox-center.fbox-sep:not(.fbox-bg) h3::after {
+  content: '';
+  display: block;
+  margin: 1.25rem auto;
+  width: 2rem;
+  height: 2px;
+  background-color: #555;
+  -webkit-transition: width .3s ease;
+  -o-transition: width .3s ease;
+  transition: width .3s ease
+}
+
+.fbox-center.fbox-sep:not(.fbox-bg):hover h3::after {
+  width: 3rem
+}
+
+.fbox-bg.fbox-center {
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 2rem 2rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px
+}
+
+.fbox-bg.fbox-center .fbox-icon {
+  margin-top: -2rem
+}
+
+.fbox-icon {
+  width: 5.5rem;
+  height: 4rem;
+  padding: 0 .75rem
+}
+
+.fbox-icon a, .fbox-icon i, .fbox-icon img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff
+}
+
+.fbox-icon i, .fbox-icon img {
+  border-radius: 50%;
+  background-color: #1abc9c
+}
+
+.fbox-icon i {
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 4rem;
+  text-align: center
+}
+.fbox-sm .fbox-icon {
+  width: 3rem;
+  height: 2rem;
+  padding: 0 .5rem
+}
+
+.fbox-sm .fbox-icon i {
+  font-size: 1rem;
+  line-height: 2rem
+}
+
+.fbox-sm .fbox-content {
+  padding: 0 .5rem
+}
+
+.fbox-lg .fbox-icon {
+  width: 7.5rem;
+  height: 6rem
+}
+
+.fbox-lg .fbox-icon i {
+  font-size: 2.5rem;
+  line-height: 6rem
+}
+
+.fbox-xl .fbox-icon {
+  width: 9.5rem;
+  height: 8rem
+}
+
+.fbox-xl .fbox-icon i {
+  font-size: 4.5rem;
+  line-height: 8rem
+}
+
+.fbox-outline .fbox-icon a {
+  border: 1px solid #1abc9c;
+  padding: .25rem;
+  border-radius: 50%
+}
+
+.fbox-outline .fbox-icon i {
+  line-height: 3.5rem
+}
+
+.fbox-outline.fbox-sm .fbox-icon i {
+  line-height: 1.5rem
+}
+
+.fbox-outline.fbox-lg .fbox-icon i {
+  line-height: 5.5rem
+}
+
+.fbox-outline.fbox-xl .fbox-icon i {
+  line-height: 7.5rem
+}
+
+.fbox-rounded .fbox-icon {
+  border-radius: 3px !important
+}
+
+.fbox-rounded .fbox-icon i, .fbox-rounded .fbox-icon img {
+  border-radius: 3px !important
+}
+
+.fbox-rounded.fbox-lg .fbox-icon {
+  border-radius: 4px !important
+}
+
+.fbox-rounded.fbox-lg .fbox-icon i, .fbox-rounded.fbox-lg .fbox-icon img {
+  border-radius: 4px !important
+}
+
+.fbox-rounded.fbox-xl .fbox-icon {
+  border-radius: 6px !important
+}
+
+.fbox-rounded.fbox-xl .fbox-icon i, .fbox-rounded.fbox-xl .fbox-icon img {
+  border-radius: 6px !important
+}
+
+.fbox-light.fbox-outline .fbox-icon a {
+  border-color: #e5e5e5
+}
+
+.fbox-light .fbox-icon i, .fbox-light .fbox-icon img {
+  border: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+  color: #444
+}
+
+.fbox-dark.fbox-outline .fbox-icon a {
+  border-color: #444
+}
+
+.fbox-dark .fbox-icon i, .fbox-dark .fbox-icon img {
+  background-color: #333
+}
+
+.fbox-border .fbox-icon a {
+  border: 1px solid #1abc9c;
+  border-radius: 50%
+}
+
+.fbox-border .fbox-icon i, .fbox-border .fbox-icon img {
+  border: none;
+  background-color: transparent !important;
+  color: #005093
+}
+
+.fbox-border.fbox-light .fbox-icon a {
+  border-color: #e5e5e5
+}
+
+.fbox-border.fbox-light .fbox-icon i, .fbox-border.fbox-light .fbox-icon img {
+  color: #888
+}
+
+.fbox-border.fbox-dark .fbox-icon a {
+  border-color: #333
+}
+
+.fbox-border.fbox-dark .fbox-icon i, .fbox-border.fbox-dark .fbox-icon img {
+  color: #444
+}
+
+.fbox-plain .fbox-icon {
+  border: none !important
+}
+
+.fbox-plain .fbox-icon i, .fbox-plain .fbox-icon img {
+  border: none;
+  background-color: transparent !important;
+  color: #005093;
+  border-radius: 0
+}
+
+.fbox-plain .fbox-icon i {
+  font-size: 3rem;
+  line-height: 1
+}
+
+.fbox-plain.fbox-image .fbox-icon {
+  width: auto
+}
+
+.fbox-plain.fbox-image .fbox-icon img {
+  width: auto;
+  display: inline-block
+}
+
+.fbox-plain.fbox-light .fbox-icon i, .fbox-plain.fbox-light .fbox-icon img {
+  color: #888
+}
+
+.fbox-plain.fbox-dark .fbox-icon i, .fbox-plain.fbox-dark .fbox-icon img {
+  color: #444
+}
+
+.fbox-plain.fbox-sm .fbox-icon i {
+  font-size: 2rem
+}
+
+.fbox-plain.fbox-lg .fbox-icon i {
+  font-size: 4.5rem
+}
+
+.fbox-plain.fbox-xl .fbox-icon i {
+  font-size: 6rem
+}
+
+.fbox-center {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fbox-center .fbox-icon {
+  margin-bottom: 1.5rem
+}
+
+.fbox-content+.fbox-icon {
+  margin-top: 1.5rem;
+  margin-bottom: 0 !important
+}
+
+.single-product .fbox-plain.fbox-sm .fbox-icon {
+  width: 2.25rem
+}
+
+.single-product .fbox-plain.fbox-sm .fbox-icon i {
+  font-size: 1.125rem;
+  line-height: 1.5
+}
+.fbox-content h3 .subtitle {
+  display: block;
+  margin-top: 5px;
+  color: #444;
+  font-weight: 300;
+  text-transform: none
+}
+.content-wrap {
+  position: relative;
+  padding: 180px 0;
+  overflow: hidden
+  height:600px;
+}
+.fbox-content h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #333;
+}
+
+.fbox-content{
+  padding-top: 15px;
+}
+
+.feature-box{
+  height:200px;
+}
+
+#CTA{
+  background-color: #fed52f;
+}
